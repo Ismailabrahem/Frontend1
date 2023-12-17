@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <title>Burger House</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#menu">Menyn</a></li>
+            <li><a href="#order">Beställ</a></li>
+            <li><a href="#om">Om Oss</a></li>
+        </ul>
+    </nav>
+
+    <div class="mainbild" id="mainbild">
+        <img src="huvudbild.png" alt="Huvudbild">
+        <div class="bild-text">
+            Burger House grundades år 2020 av kocken och entreprenören Ismail Abrahem. Hans passion för både matlagning och kvalitetsingredienser har varit drivkraften för att ständigt förbättra och leda restaurangen till framgång. I dagsläget är Burger House en väldigt känd restaurang som har etablerat sig som en kulinarisk slutstation för de som älskar burgare. Hur kommer det sig? Jo, med hjälp av de 4 unika och varierande burgarna som han har skapat, har restaurangen blivit en favorit bland både lokalbefolkningen och turister. Inte nog med det, men atmostfären i restaurangen påminner dig om trygghet och säkerhet kombinerat med en oöverträffad service. Det har inte varit en kund sedan start som har gett restaurangen under 5 stjärnor.  Med detta sagt, kan Ismail Abrahem öppna upp ännu en restaurang och öka på sitt utbud av burgare.
+        </div>
+    </div>
+    
+    <section id="menu" class="content-section hidden">
+        <a href="#" class="back-button" onclick="showSection('main'); return false;">Återgå</a>
+            <h1>Alla Burgare</h1>
+            <div class="burger" id="Classic Burger">
+                <h2>Classic Burger - 100 kr</h2>
+                <h3>En saftig burgare som består av 180g Nötkött, vår eftertrafktade sås, sallad, lök, tomat och ost</h3>
+                <img src="Classic.png" alt="Classic Burger">
+            </div>
+            <div class="burger" id="Smashed Burger">
+                <h2>Smashed Burger - 120 kr</h2>
+                <h3>En dubble burgare som består av 2st 180g Nötkött, vår eftertrafktade sås, sallad, ost och karameliserad lök</h3>
+                <img src="Smashed.png" alt="Smashed Burger">
+            </div>
+            <div class="burger" id="Special Burger">
+                <h2>Special Burger - 95 kr</h2>
+                <h3>Denna burgare består av en speciell sås, med 180g Nötkött, ost och kalkon-bacon</h3>
+                <img src="Special.png" alt="Special Burger">
+            </div>
+            <div class="burger" id="Boss Burger">
+                <h2>Boss Burger - 110 kr</h2>
+                <h3>För att äta den här burgaren så måste man ha på sig Hugo Boss tröja. </h3>
+                <img src="Boss.png" alt="Boss Burger">
+            </div>
+            <div class="drink">
+                <h2>Drink - 10 kr</h2>
+                <h3>Are you Thirsty bro?</h3>
+                <img src="Drink.png" alt="Drink">
+            </div>
+    </section>
+
+    <section id="order" class="content-section hidden">
+        <a href="#" class="back-button" onclick="showSection('main'); return false;">Återgå</a>
+        <h1>Gör din beställning</h1>
+        <form id="orderForm">
+        </form>
+    </section>
+
+    <section id="om" class="content-section hidden">
+        <div class=" om-content">
+            <div class="om-text">
+                <a href="#" class="back-button" onclick="showSection('main'); return false;">Återgå</a>
+                <h1>Om Burger House</h1>
+                <p>Adress: Bandogatan 1</p>
+                <p>Burger House öppnades 2020 under COVID-19. The Highly Esteemed Ismail Abrahem tog chansen och blev en av de mest framgångsrika entreprenörerna. Han är den som lagar maten och därefter levererar maten. Han byggde restaurangen med sina egna händer och bär HELA restaurangen på sin rygg! Hans passion för både matlagning och kvalitetsingredienser har varit drivkraften för att ständigt förbättra och leda restaurangen till framgång. I dagsläget är Burger House en väldigt känd restaurang som har etablerat sin som en kulinarisk slutstation för de som älskar burgare. Hur kommer det sig? Jo, med hjälp av de 4 unika och varierande burgarna som han har skapat, så har restaurangen blivit en favorit bland både lokalbefolkningen och turister. Inte nog med det, men atmostfären i restaurangen påminner dig om trygghet och säkerhet, kombinerat med en oöverträffad service. Det har inte varit en kund sedan start som har gett restaurangen under 5 stjärnor. Med detta sagt, kan Ismail Abrahem öppna upp ännu en restaurang och öka på sitt utbud av burgare.</p>
+            </div>
+            <div class="om-logo">
+                <img src="logo.png" alt="Burger House Logo">
+            </div>
+        </div>
+            <div class="om-matbord">
+                <img src="matbord.png" alt="Matbord">
+            </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
